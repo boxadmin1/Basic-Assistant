@@ -4,9 +4,9 @@ import math
 import random
 import re
 
-class ODAS:
+class AI:
     def __init__(self):
-        self.name = "ODAS"
+        self.name = "AI"
         self.running = True
 
     def get_weather(self):
@@ -87,5 +87,5 @@ class ODAS:
                 break
 
 if __name__ == "__main__":
-    bot = ODAS()
+    bot = AI()
     bot.start()
